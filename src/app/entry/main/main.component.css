@@ -277,27 +277,171 @@ h3{
   left: 90px;
 }
 
-/* .menu{
-  width: 10px;
-  color: #FFFFFF;
+.all-center{
+  width: 80%;
+  /* border: 2px solid green; */
   position: relative;
-  bottom: 55px;
-  left: 240px;
+  top: 260px;
+  margin: 0px auto;
 }
 
-.menu-icon{
-  font-size: 38px;
-  margin-bottom: 10px;
-  margin-right: 80px;
+.grid-image{
+   width:100%;
+   /* border: 2px solid red; */
+   height: 290px;
+   border-radius: 45px;
+   margin-bottom: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   cursor: pointer;
+}
 
+.grid-image-first{
+  width:100%;
+  /* border: 2px solid red; */
+  height: 290px;
+  border-radius: 45px;
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+.grid-image-first img{
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+/* .grid-image:hover{
+  margin-left: 38px;
+  transition: ease-in-out;
 } */
 
-/* .menu-container{
+.grid-image img{
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.grid-cap{
+  position: relative;
+  bottom: 155px;
+  color: red;
+}
+
+.grid-cap h5{
+  position: relative;
+  bottom: 75px;
+  line-height: 20px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3px;
+  color: red;
+  letter-spacing: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inside-here{
   width: 100%;
-  border: 2px solid red ;
+  /* border: 2px solid green; */
+  position: relative;
+  top: 260px;
+  margin: 0px auto;
+}
 
+.next-grid{
+  width: 90%;
+  margin: 0px auto;
 
+}
+
+.next-grid-image{
+  width:100%;
+   /* border: 2px solid red; */
+   height: 290px;
+   border-radius: 45px;
+   margin-bottom: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   cursor: pointer;
+}
+
+/* .next-grid-image:hover{
+  margin-left: 38px;
+  transition: ease-in-out;
 } */
+
+.next-grid-image img{
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.next-grid-cap{
+  position: relative;
+  bottom: 155px;
+  color: red;
+}
+
+.next-grid-cap h5{
+  position: relative;
+  bottom: 75px;
+  line-height: 20px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3px;
+  color: red;
+  letter-spacing: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.load{
+  /* border: 2px solid red; */
+  width: 55%;
+  margin: 40px auto;
+  border-radius: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.load-more{
+  width: 100%;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: #1E2631;
+  color: #FFFFFF;
+  height: 60px;
+  border-radius: 30px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.load-more:hover{
+  background-color: #14AE9C;
+}
+
+.icon-load{
+  font-size: 30px;
+  color:#FFFFFF;
+  position: relative;
+  /* right: 130px;
+  top: 15px; */
+
+  right: 68px;
+  top: 15px;
+}
+
+.foot{
+  width: 100%;
+  /* border: 2px solid red; */
+  margin-top: 250px;
+  height: 350px;
+  background-color: #1E2631;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -395,9 +539,97 @@ h3{
 }
 }
 
-@media only screen and (min-width: 439px){
+@media only screen and (min-width: 700px){
+.all-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    width: 90%;
+}
+.grid-image-first{
+  width:60%;
+  /* border: 2px solid red; */
+  height: 350px;
+}
+.grid-image{
+  width:40%;
+  /* border: 2px solid red; */
+  height: 320px;
+}
+
+.next-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.next-grid-image{
+  width:98%;
+   /* border: 2px solid red; */
+   height: 370px;
 
 }
+
+/* .next-grid-image:hover{
+  margin-bottom: 38px;
+  transition: ease-in-out;
+}
+
+.grid-image:hover{
+  margin-bottom: 38px;
+  transition: ease-in-out;
+} */
+
+.load{
+  width: 25%;
+}
+
+.icon-load{
+
+  right: 130px;
+  top: 15px;
+
+}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 979px) {
+  .all-center{
+      /* display: grid; */
+      display: flex;
+      column-gap: 10px;
+      width: 90%;
+  }
+  .grid-image-first {
+    width:70%;
+    height: 290px;
+  }
+
+  .grid-image{
+    width:40%;
+    /* border: 2px solid red; */
+    height: 290px;
+  }
+
+  /* .next-grid-image{
+    width:98%;
+     height: 370px;
+
+  }
+
+  .next-grid-image:hover{
+    margin-bottom: 38px;
+    transition: ease-in-out;
+  } */
+
+  .icon-load{
+
+    right: 130px;
+    top: 15px;
+
+  }
+
+  }
 
 
 
