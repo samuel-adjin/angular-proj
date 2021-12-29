@@ -2,5 +2,9 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+@font-face {
+  font-family: "festive";
+  src: local("festive"), url(.\assets\fonts\Festive-Regular.ttf) format("truetype");
+}
 
 @import '~bootstrap/dist/css/bootstrap.css';

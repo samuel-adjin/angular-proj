@@ -9,11 +9,21 @@ import { MainComponent } from './entry/main/main.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './styling/material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { AboutComponent } from './entry/about/about.component';
+import { HeaderComponent } from './entry/header/header.component';
+import { LoginComponent } from './entry/login/login.component';
+import { RegisterComponent } from './entry/register/register.component';
+import { CategoryComponent } from './entry/category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
+    AboutComponent,
+    HeaderComponent,
+    LoginComponent,
+    RegisterComponent,
+    CategoryComponent,
 
 
 

@@ -3,24 +3,25 @@
 
     <div class="container-fluid navbar" fxLayout="row" fxLayoutAlign="start space-between" fxLayoutGap="290px">
       <div class="navbar-brand" fxLayoutAlign="start stretch">
-        <button class="navbar-brand" mat-button fxLayout='row'> Farad</button>
+        <button class="navbar-brand" mat-button fxLayout='row' routerLink="/home"> Farad</button>
       </div>
-      <div class="nav-content" fxLayout="row" fxLayoutGap="30px" fxHide.lt-md>
+      <div class="nav-content" fxLayout="row" fxLayoutGap="30px" fxHide.lt-lg>
         <div>
-          <button mat-button>Home</button>
+          <button mat-button routerLink="/home">Home</button>
         </div>
         <div>
-          <button mat-button>Categories</button>
+          <button mat-button routerLink="/headings/categories">Categories</button>
         </div>
         <div>
-          <button mat-button>About</button>
+
+          <button mat-button  routerLink="/headings/about">About</button>
         </div>
         <div>
           <button mat-button>Recent Activities</button>
         </div>
         <div class="sign" fxLayout="row" fxLayoutAlign="end" fxLayoutGap="5px" fxHide.lt-sm>
-          <button mat-raised-button class="register login">Login</button>
-          <button mat-raised-button class="register">Register</button>
+          <button mat-raised-button class="register login" routerLink="/headings/login">Login</button>
+          <button mat-raised-button class="register" routerLink="/headings/sign-up">Register</button>
         </div>
       </div>
       <!-- <div fxHide.gt-sm fxShow.lt-sm>
@@ -215,6 +216,4 @@
 
 </div>
 
-<script>
-  
-</script>
+

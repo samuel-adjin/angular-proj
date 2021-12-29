@@ -13,4 +13,21 @@
 <body class="mat-typography">
   <app-root></app-root>
 </body>
+
+
+<script>
+  window.addEventListener('scroll',()=>{
+    let navbar = document.querySelector('.navbar');
+    let windowPosition = window.scrollY >250;
+    navbar.classList.toggle('scrolling-active',windowPosition);
+  })
+
+  // window.addEventListener('scroll',()=>{
+  //   let navbarhead = document.querySelector('.navbar-head');
+  //   let windowPosition = window.scrollY >250;
+  //   navbarhead.classList.toggle('scrolling-active',windowPosition);
+  //  console.log(navbarhead)
+  // })
+
+</script>
 </html>

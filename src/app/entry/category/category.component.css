@@ -1,0 +1,168 @@
+.cate{
+  /* border: 2px solid red; */
+  max-width: 100%;
+}
+
+.cate-text{
+  /* border: 2px solid black; */
+  max-width: 60%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+
+
+}
+
+.cate-one{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  gap: 5px;
+  /* border: 2px solid green; */
+}
+
+.cate-two{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  gap: 5px;
+  /* border: 2px solid red; */
+}
+
+.inner-cate-one{
+  max-width:100%;
+  border: 2px solid violet;
+  min-height: 170px;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.inner-cate-two{
+  max-width:100%;
+  /* border: 2px solid black; */
+  min-height: 170px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+.inner-row-one{
+  border: 2px solid blue;
+  max-width: 100%;
+  text-align: center;
+
+
+
+}
+
+.inner-row-two{
+  border: 2px solid goldenrod;
+  max-width: 100%;
+  text-align: center;
+
+
+}
+
+.inner2-row-one{
+  border: 2px solid goldenrod;
+  max-width: 130px;
+  row-gap: 0px;
+  text-align: center;
+
+}
+
+.inner2-row-two{
+  /* border: 2px solid teal; */
+  position: relative;
+  right: 0px;
+  width: 320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner2-row2-one{
+  border: 2px solid teal;
+  max-width: 80px;
+  height: 80px;
+  text-align: center;
+
+
+}
+
+.inner2-row2{
+  border: 2px solid gold;
+  max-width: 80px;
+  height: 80px;
+  text-align: center;
+
+
+}
+
+.move{
+  position: relative;
+  right: 0px;
+}
+
+.inner2-row2-two{
+  border: 2px solid red;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+
+}
+
+.cate-three{
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+
+.cate-three-row1
+{
+  border: 2px solid blue;
+  text-align: center;
+
+}
+
+.cate-three-row2
+{
+  border: 2px solid gray;
+  text-align: center;
+
+}
+
+.recent-cate{
+  /* border: 2px solid orange; */
+  max-width: 60%;
+  margin: 40px auto;
+  text-align: center;
+
+
+}
+.viewed{
+  max-width: 100%;
+  min-height: 200px;
+  /* border: 2px solid grey; */
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 10px;
+}
+
+.recent-text{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.viewed-one{
+  border: 2px solid brown;
+  max-height: 50px;
+  text-align: center;
+
+}

@@ -1,0 +1,138 @@
+.main-container{
+  /* border: 2px solid red; */
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.log-page{
+  /* border: 2px solid green; */
+  margin: 0px auto;
+  max-width: 30%;
+  min-height: 550px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.tittle-log{
+  border: 2px solid black;
+  max-width: 100%;
+  min-height: 150px;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ background-color: #1E2631;
+ color: #FFF;
+ /* text-align: center; */
+ font-size: 25px;
+}
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  /* border: 2px solid red; */
+  margin-top: 30px;
+
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.email{
+  /* border: 2px solid red; */
+  width: 65%;
+  margin: 20px auto;
+}
+
+.password{
+  width: 65%;
+  margin: 10px auto;
+}
+
+.login{
+  max-width: 100%;
+  margin-top: 40px;
+
+}
+
+.login-button{
+  max-width: 50%;
+  min-height: 50px;
+   margin: 0px auto;
+   border-radius: 15px;
+}
+
+.mat-log{
+  width: 100%!important;
+  min-width: unset!important;
+  min-height: 50px;
+  border-radius: 15px;
+  background-color: #14AE9C;
+  color: #FFF;
+}
+
+.or{
+  display: flex;
+  gap: 5px;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.divider{
+  width: 45%;
+  border-bottom: 2px solid #949494;
+  position: relative;
+  bottom: 10px;
+}
+
+.or .text{
+  color:#949494;
+}
+
+.google{
+  max-width: 60%;
+  min-height: 50px;
+  border: 2px solid #1E2631;
+  margin:0px auto;
+  border-radius: 15px;
+}
+
+.google img{
+  width: 8%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 950px)
+{
+  .log-page{
+    /* border: 2px solid green; */
+    max-width: 80%;
+
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 950px)
+{
+  .log-page{
+    /* border: 2px solid green; */
+    max-width: 50%;
+
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1221px)
+{
+  .log-page{
+    /* border: 2px solid green; */
+    max-width: 35%;
+
+  }
+}
+
